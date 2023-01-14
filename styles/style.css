@@ -1,0 +1,157 @@
+/* common styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans';
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 80px;
+    padding: 0 25px
+}
+.logo{
+    font-weight: 700;
+    font-size: 45px;
+}
+nav > ul{
+    display: flex;
+    gap: 40px;
+}
+nav > ul > li{
+    list-style: none;
+    color: #424242;
+
+}
+/* main */
+/* content part  */
+.content{
+    margin: 0 auto;
+    width: 80%;
+    padding: 0 25px
+}
+.brand-section{
+    text-align: center;
+    margin-top: 50px;
+}
+.brand-title{
+    font-weight: 700;
+    font-size: 64px;
+}
+.brand-description{
+    color: #727272;
+    padding: 10px 89px;
+}
+.btn{
+    background: #FF900E;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 180px;
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    margin-top: 15px;
+}
+.banner{
+    margin-top: 50px;
+}
+.brand-img{
+    width: 100%;
+}
+/* features part  */
+.content-second-part{
+    margin: 0 auto;
+    width: 80%;
+    padding: 0 25px
+}
+.features{
+    display: flex;
+    margin-top: 100px;
+    padding: 80px;
+}
+
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 20px;
+}
+.team{
+    width: 100%;
+}
+.features-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+}
+#text-design{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+#text-design1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+#text-design2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+.feature-description{
+    color: #727272;
+    margin-top: 20px;
+}
+#btn-id{
+    margin-top: 30px;
+}
+/* media query */
+/* mobile version */
+@media only screen and (max-width:677px) {
+    /* header part */
+    header{
+        display: block;
+        padding: 20px 0px;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    nav > ul{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* containers part */
+    .content{
+        margin-top: 200px;
+    }
+    .brand-title{
+        font-size: 25px;
+    }
+    .brand-description{
+        text-align: justify;
+        margin-top: 15px;
+        padding: 0;
+    }
+    .btn{
+        margin-top: 20px;
+        width: 160px;
+        height: 60px;
+    }
+    .banner{
+        margin-top: 30px;
+    }
+}
