@@ -137,7 +137,7 @@ nav > ul > li{
 .data-info{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 70px;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -214,6 +214,10 @@ nav > ul > li{
     border: 1px solid #FF900E;
     border-radius: 8px;
     text-align: center;
+    cursor: pointer;
+}
+.ribon:hover{
+    background-color: #63cf48;
 }
 .icon{
     margin-top: 50px;
