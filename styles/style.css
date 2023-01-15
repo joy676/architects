@@ -15,7 +15,7 @@ header{
     margin: 0 auto;
     width: 80%;
     height: 80px;
-    padding: 0 25px
+    padding: 0 25px;
 }
 .logo{
     font-weight: 700;
@@ -35,7 +35,7 @@ nav > ul > li{
 .content{
     margin: 0 auto;
     width: 80%;
-    padding: 0 25px
+    padding: 0 25px;
 }
 .brand-section{
     text-align: center;
@@ -71,7 +71,7 @@ nav > ul > li{
 .content-second-part{
     margin: 0 auto;
     width: 80%;
-    padding: 0 25px
+    padding: 0 25px;
 }
 .features{
     display: flex;
@@ -117,6 +117,73 @@ nav > ul > li{
 #btn-id{
     margin-top: 30px;
 }
+/* experience-part */
+.content-third-part{
+    margin: 0 auto;
+    width: 80%;
+    padding: 0 25px;
+}
+.experiences{
+    display: flex;
+}
+.experience-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 20px;
+}
+.ex-description{
+    color: #727272;
+}
+.data-info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.design{
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+    position: absolute;
+}
+.data-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.data-description{
+    color: #727272;
+    padding-right: 170px;
+}
+.experience-info{
+    width: 100%;
+}
+.experience-banner{
+    width: 100%;
+}
+.architect{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+.ex-btn{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    right: 90px;
+    bottom: 90px;
+
+}
+#year{
+    font-weight: 700;
+    font-size: 35px;
+}
 /* media query */
 /* mobile version */
 @media only screen and (max-width:677px) {
@@ -153,5 +220,57 @@ nav > ul > li{
     }
     .banner{
         margin-top: 30px;
+    }
+    /* .content-second-part */
+    .features{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .features-info{
+        margin-left: 0;
+    }
+    .features-img{
+        display: block;
+    }
+    .team{
+        padding-bottom: 10px;
+    }
+    /* content-third-part */
+    .experiences{
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .experience-title{
+        font-size: 32px;
+    }
+    .ex-description{
+        margin-top: 10px;
+        text-align: justify;
+    }
+    .data-info{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .data-title{
+        font-size: 25px;
+    }
+    .data-description{
+        text-align: justify;
+        padding-right: 0;
+    }
+    .experience-banner{
+        margin-top: 40px;
+    }
+    .ex-btn{
+        position: relative;
+        right: 10px;
+        bottom: 45px;
+        width: 115px;
+        height: 100px;        
+    }
+    #year{
+        font-size: 25px;
     }
 }
